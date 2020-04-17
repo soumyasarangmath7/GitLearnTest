@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<form>
+			<label>Email:</label><br>
+			<input type="text" name="email" id="email">
+		</form>
+		<button onclick="testTrim()">submit</button>
+		<script>
+			function testTrim()
+			{
+				var test=document.getElementById("email");
+				var strEmail = test.outerHTML;
+				console.log(strEmail);
+			}
+		</script>
+		
+	</body>
+</html>
