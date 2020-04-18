@@ -16,17 +16,25 @@ body {
 .formNav {
     color: white;
 }
-.dropdown-menu>.dropdown-item
-{
-    background-color: #f4511e;
-} 
 
 .jumbotron{
     background-color: #f4511e;
     font-family: Montserrat, sans-serif;        
 } 
 
-.card>img
+.card-body>img
 {
-    height:300px !important;
+    height:300px !important;    
+}
+
+.dropdown-menu>.dropdown-item
+{
+    background-color: white !important;
+    color: black !important;
+}
+
+.dropdown-menu>.dropdown-item:hover
+{
+    background-color: #f4511e ;
+    color: white;
 }
