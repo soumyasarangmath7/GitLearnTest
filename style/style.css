@@ -1,0 +1,32 @@
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8; 
+}
+
+.navbar {
+    background-color: #f4511e;
+    font-family: Montserrat, sans-serif;
+    font-size: 17px !important;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: white;
+}
+
+.formNav {
+    color: white;
+}
+.dropdown-menu>.dropdown-item
+{
+    background-color: #f4511e;
+} 
+
+.jumbotron{
+    background-color: #f4511e;
+    font-family: Montserrat, sans-serif;        
+} 
+
+.card>img
+{
+    height:300px !important;
+}
