@@ -18,215 +18,214 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg customPageHeaderFooter">
+        <a class="navbar-brand ml-5" href="#">E-Commerce</a>
         <button class="navbar-toggler bg-light" type="button" data-toggle="collapse"
-        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <i class="fas fa-bars"></i>
-    </button>
-      
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item dropDownNav" href="#">Action</a>
-                <a class="dropdown-item dropDownNav" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item dropDownNav" href="#">Something else here</a>
-              </div>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0 ">
-            <a class="nav-link formNav" href="#">
-                <i class="fas fa-user-circle"></i> 
-                Login          
-            </a>            
-            <a class="nav-link formNav" href="#">
-                <i class="fas fa-cart-arrow-down"></i>
-                Cart
-            </a>           
-          </form>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ml-3">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item ml-3">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown ml-3">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Services
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Link1</a>
+                        <a class="dropdown-item" href="#">Link2</a>
+                        <a class="dropdown-item" href="#">Link3</a>
+                    </div>
+                </li>
+                <li class="nav-item ml-3">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+            </ul>
+            <form class="form-inline">
+                <a class="nav-link formNav" href="#">
+                    <i class="fas fa-user-circle"></i>
+                    Login
+                </a>
+                <a class="nav-link formNav" href="#">
+                    <i class="fas fa-cart-arrow-down"></i>
+                    Cart
+                </a>
+            </form>
         </div>
-      </nav>
-    <div class="jumbotron text-light text-center">
-        <h1>
+    </nav>
+    <div class="jumbotron text-light text-center rounded-0">
+        <h1 class="font-weight-bold">
             OnlineShopping.com
         </h1>
         <form class="form-inline justify-content-center mt-3">
             <div class="input-group">
-                <input type="text" class="form-control" size="20" placeholder="Product Name, Category..." required>           
+                <input type="text" class="form-control" size="20" placeholder="Product Name, Category..." required>
                 <div class="input-group-btn">
-                    <button type="button" class="btn btn-success">Search</button>
+                    <button type="button" class="btn searchBtn text-light font-weight-bold">Search
+                        <i class="fas fa-search"></i>
+                    </button>
                 </div>
             </div>
         </form>
     </div>
     <div class="container">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center mt-5">
             <h2 class="display-4 text-dark">Popular Items</h2>
         </div>
-        <div class="row">
-            <div class="col-4">
-                <h2>Avast Antivirus</h2>
-                <div class="card">
-                    <img src="images/avast.png" class="card-img-top" alt="Avast Antivirus">
-                    <div class="card-body">
-                        <p>Avast Antivirus secures your PC/laptop</p>
-                        <div class="row mt-2">
-                            <div class="col-6">
-                                <h4>$249.99</h4>
-                            </div>
-                            <div class="col-6">
-                                <a href="#" class="btn text-warning">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
+        <div class="card-deck mt-3">
+            <div class="card">
+                <div class="card-header">Avast Antivirus</div>
+                <div class="card-body">
+                    <img src="images/avast.png" class="card-img-top mb-3" alt="Avast Antivirus">
+                    <p>Avast Antivirus secures your PC/laptop from malwares</p> 
+                </div>
+                <div class="card-footer">
+                    <div class="row">
+                        <div class="col-6">
+                            <h4>$199.99</h4>
+                        </div>
+                        <div class="col-6">
+                            <a href="#" class="btn text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 ">
+                            <div class="input-group rounded">
+                                <a href="#" class="btn btn-primary">
+                                    <span class="input-group-addon">
+                                        <i class="fas fa-list"></i>
+                                    </span>
+                                    More Details
                                 </a>
                             </div>
                         </div>
-                        <div class="row mt-2">
-                            <div class="col-6 ">
-                                <div class="input-group rounded">
-                                    <a href="#" class="btn btn-primary">
-                                        <span class="input-group-addon">
-                                            <i class="fas fa-list"></i>
-                                        </span>
-                                        More Details
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <a href="#" class="btn btn-success stretched-link">
-                                    <i class="fas fa-cart-plus"></i>
-                                    Add to Cart
-                                </a>
-                            </div>
+                        <div class="col-6">
+                            <a href="#" class="btn btn-success stretched-link">
+                                <i class="fas fa-cart-plus"></i>
+                                Add to Cart
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-4">
-                <h2>MS Office</h2>
-                <div class="card">
-                    <img src="images/ms-office.png" class="card-img-top" alt="MS Office">
-                    <div class="card-body">
-                        <p>Avast Antivirus secures your PC/laptop</p>
-                        <div class="row mt-2">
-                            <div class="col-6">
-                                <h4>$249.99</h4>
-                            </div>
-                            <div class="col-6">
-                                <a href="#" class="btn text-warning">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
+
+            <div class="card">
+                <div class="card-header">MS Office</div>
+                <div class="card-body">
+                    <img src="images/ms-office.png" class="card-img-top  mb-3" alt="MS Office">
+                    <p>MS Office provides you with the bundles of Word, Excel, Powerpoint...</p>
+                </div>
+                <div class="card-footer">
+                    <div class="row">
+                        <div class="col-6">
+                            <h4>$149.99</h4>
+                        </div>
+                        <div class="col-6">
+                            <a href="#" class="btn text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-6 ">
+                            <div class="input-group rounded">
+                                <a href="#" class="btn btn-primary">
+                                    <span class="input-group-addon">
+                                        <i class="fas fa-list"></i>
+                                    </span>
+                                    More Details
                                 </a>
                             </div>
                         </div>
-                        <div class="row mt-2">
-                            <div class="col-6 ">
-                                <div class="input-group rounded">
-                                    <a href="#" class="btn btn-primary">
-                                        <span class="input-group-addon">
-                                            <i class="fas fa-list"></i>
-                                        </span>
-                                        More Details
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <a href="#" class="btn btn-success stretched-link">
-                                    <i class="fas fa-cart-plus"></i>
-                                    Add to Cart
-                                </a>
-                            </div>
+                        <div class="col-6">
+                            <a href="#" class="btn btn-success stretched-link">
+                                <i class="fas fa-cart-plus"></i>
+                                Add to Cart
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-4">
-                <h2>Visual Studio</h2>
-                <div class="card">
-                    <img src="images/VisualStudio.png" class="card-img-top" alt="VisualStudio">
-                    <div class="card-body">
-                        <p>Avast Antivirus secures your PC/laptop</p>
-                        <div class="row mt-2">
-                            <div class="col-6">
-                                <h4>$249.99</h4>
-                            </div>
-                            <div class="col-6">
-                                <a href="#" class="btn text-warning">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
+
+            <div class="card">
+                <div class="card-header">Visual Studio 2019</div>
+
+                <div class="card-body">
+                    <img src="images/VisualStudio.png" class="card-img-top  mb-3" alt="VisualStudio">
+                    <p>Visual Studio is an IDE for developing Web, Desktop and Mobile Apps</p>
+                </div>
+                <div class="card-footer">
+                    <div class="row">
+                        <div class="col-6">
+                            <h4>$249.99</h4>
+                        </div>
+                        <div class="col-6">
+                            <a href="#" class="btn text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-6 ">
+                            <div class="input-group rounded">
+                                <a href="#" class="btn btn-primary">
+                                    <span class="input-group-addon">
+                                        <i class="fas fa-list"></i>
+                                    </span>
+                                    More Details
                                 </a>
                             </div>
                         </div>
-                        <div class="row mt-2">
-                            <div class="col-6 ">
-                                <div class="input-group rounded">
-                                    <a href="#" class="btn btn-primary">
-                                        <span class="input-group-addon">
-                                            <i class="fas fa-list"></i>
-                                        </span>
-                                        More Details
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <a href="#" class="btn btn-success stretched-link">
-                                    <i class="fas fa-cart-plus"></i>
-                                    Add to Cart
-                                </a>
-                            </div>
+                        <div class="col-6">
+                            <a href="#" class="btn btn-success stretched-link">
+                                <i class="fas fa-cart-plus"></i>
+                                Add to Cart
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid text-center mt-5">
+    <div class="container-fluid text-center mt-5 customPageHeaderFooter text-light">
         <div class="row">
             <div class="col card-footer">
                 <section>
-
                     <i class="fas fa-copyright"></i>
-                    OnlineShopping Pvt. Ltd.
-
+                    2020 OnlineShopping Pvt. Ltd.
                 </section>
                 <section>
-
                     <i class="fas fa-map-marker"></i>
                     Bangalore,India.
-
                 </section>
                 <section>
-
                     <i class="fas fa-phone"></i>
                     +91 xxxxxxxxxx
-
                 </section>
                 <section>
-
                     <i class="fas fa-envelope"></i>
                     info@onlineshopping.com
-
                 </section>
             </div>
         </div>
