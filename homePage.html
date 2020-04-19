@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Bootstrap Example</title>
+    <title>E-commerce</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -64,19 +64,21 @@
         <h1 class="font-weight-bold">
             OnlineShopping.com
         </h1>
-        <form class="form-inline justify-content-center mt-3">
-            <div class="input-group">
-                <input type="text" class="form-control" size="20" placeholder="Product Name, Category..." required>
-                <div class="input-group-btn">
-                    <button type="button" class="btn searchBtn text-light font-weight-bold">Search
-                        <i class="fas fa-search"></i>
-                    </button>
+        <form class="form-row justify-content-center mt-3">
+            <div class="col-md-8">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Product Name, Category..." required>
+                    <div class="input-group-btn">
+                        <button type="button" class="btn searchBtn text-light font-weight-bold">Search
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
                 </div>
             </div>
         </form>
     </div>
     <div class="container">
-        <div class="row justify-content-center mt-5">
+        <div class="row justify-content-center">
             <h2 class="display-4 text-dark">Popular Items</h2>
         </div>
         <div class="card-deck mt-3">
@@ -84,7 +86,7 @@
                 <div class="card-header">Avast Antivirus</div>
                 <div class="card-body">
                     <img src="images/avast.png" class="card-img-top mb-3" alt="Avast Antivirus">
-                    <p>Avast Antivirus secures your PC/laptop from malwares</p> 
+                    <p>Avast Antivirus secures your PC/laptop from malwares</p>
                 </div>
                 <div class="card-footer">
                     <div class="row">
@@ -208,27 +210,51 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid text-center mt-5 customPageHeaderFooter text-light">
-        <div class="row">
-            <div class="col card-footer">
-                <section>
-                    <i class="fas fa-copyright"></i>
-                    2020 OnlineShopping Pvt. Ltd.
-                </section>
-                <section>
-                    <i class="fas fa-map-marker"></i>
-                    Bangalore,India.
-                </section>
-                <section>
-                    <i class="fas fa-phone"></i>
-                    +91 xxxxxxxxxx
-                </section>
-                <section>
-                    <i class="fas fa-envelope"></i>
-                    info@onlineshopping.com
-                </section>
-            </div>
-        </div>
+    <div class="container-fluid mt-5 p-3 customPageHeaderFooter text-light"> 
+        <form class="form-row justify-content-center mt-3">
+            <section class="ml-5 mr-5" style="text-align: left;"> 
+                <h5 class="font-weight-bolder">
+                    <u>Contact Us</u> 
+                </h5> 
+                <i class="fas fa-copyright"></i> 
+                <span>2020 OnlineShopping Pvt. Ltd.</span>
+                <br>
+                <i class="fas fa-map-marker"></i>
+                <span>Bangalore,India.</span>
+                <br>
+                <i class="fas fa-phone"></i>
+                <span>+91 xxxxxxxxxx</span>
+                <br>
+                <i class="fas fa-envelope"></i> 
+                <span>info@onlineshopping.com</span>
+            </section>
+            <section class="ml-3 mr-5" style="text-align: left;">
+                <h5 class="font-weight-bolder">
+                    <u>Quick Links</u>
+                </h5> 
+                <a href="#">About E-commerce</a>
+                <br>
+                <a href="#">Contact Us</a>
+                <br>
+                <a href="#">E-commerce Team</a>
+                <br>
+                <a href="#">Blog</a>
+                <br>
+                <a href="#">Privacy Policy</a>               
+            </section> 
+            <section class="ml-5 mr-5" style="text-align: left;">
+                <h5 class="font-weight-bolder">
+                    <u>Site Maps</u>
+                </h5> 
+                <a href="#">PC Software</a>
+                <br>
+                <a href="#">Mobile software</a>
+                <br>
+                <a href="#">Antivirus</a>
+                <br>
+                <a href="#">MS Office</a>             
+            </section>
+        </form> 
     </div>
 </body>
 
