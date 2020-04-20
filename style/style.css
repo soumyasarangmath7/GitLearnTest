@@ -32,16 +32,15 @@ li>a:hover
     background-color: #1abc9c;
     font-family: Montserrat, sans-serif;        
 } 
-.searchBtn{
-    background-color: #787878;
-}
 
-.searchBtn:hover{
-    background-color: #2c3e50 !important;
-}
-.card-body>img
+#inputSearch::placeholder {
+    font-size:15px;
+  }
+
+.card>img
 {
-    height:300px !important;        
+    height:200px !important;  
+    width:100% !important ;      
 }
 
 .card>.card-header{
@@ -67,8 +66,4 @@ section>a{
 section>a:hover{
     color: #ccceb1 !important;  
     text-decoration: none;
-}
-
-section>span:hover{
-    color: #ccceb1 !important;
 }
