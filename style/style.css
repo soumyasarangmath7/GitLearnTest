@@ -1,3 +1,10 @@
+:root { /* root says this variable is globally valid for all*/
+    --headerFooterColor: #00303f; /* "--var_name : value" is format for declaring the CSS variable*/
+    --jumbatronColor : #dcae1d;
+    --elementsColor: rgb(235, 232, 232);
+  }
+
+
 body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8; 
@@ -19,7 +26,7 @@ body {
 
 li>a:hover
 {
-    color:#dcae1d;
+    color: var(--jumbatronColor);
 }
 
 .formNav {
@@ -50,7 +57,7 @@ li>a:hover
 
 .dropdown-menu>.dropdown-item:hover
 {
-    background-color: #00303f !important ;
+    background-color: var(--headerFooterColor) !important ;
     color: white !important;
 }
 
@@ -59,7 +66,7 @@ li>a:hover
 }
 
 .moreDetails{
-    background-color: #00303f;
+    background-color: var(--headerFooterColor);
     color:white;
     font-size: 13px !important;
 }
@@ -70,7 +77,7 @@ li>a:hover
 }
 
 .cart:hover{
-   background-color: #00303f;
+   background-color: var(--headerFooterColor);
    color:white;
 }
 
@@ -84,6 +91,6 @@ section>a{
 }
 
 section>a:hover{
-    color: #dcae1d !important;  
+    color: var(--jumbatronColor) !important;  
     text-decoration: none;
 }
