@@ -11,7 +11,7 @@ body {
 }
 
 .customPageHeaderFooter {
-    background-color: #760f27;
+    background-color: var(--headerFooterColor); /* old color #760f27;*/
     font-family: Montserrat, sans-serif; 
     font-size: 14px;
 }
@@ -35,7 +35,7 @@ li>a:hover
 
 .jumbotron{
     /*background-color: #009e73;*/
-    background-color: #fed672;
+    background-color: var(--jumbatronColor) ;/* old color #fed672; */
     font-family: Montserrat, sans-serif;        
 } 
 
@@ -72,7 +72,7 @@ li>a:hover
 }
 
 .moreDetails:hover{
-    background-color: rgb(235, 232, 232);
+    background-color: var(--elementsColor);
     color:black;
 }
 
@@ -82,7 +82,7 @@ li>a:hover
 }
 
 .cart{
-    background-color: rgb(235, 232, 232);
+    background-color: var(--elementsColor);
     font-size: 14px !important;
 }
 
