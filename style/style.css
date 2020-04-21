@@ -1,10 +1,17 @@
+:root { /* root says this variable is globally valid for all*/
+    --headerFooterColor: #00303f; /* "--var_name : value" is format for declaring the CSS variable*/
+    --jumbatronColor : #dcae1d;
+    --elementsColor: rgb(235, 232, 232);
+  }
+
+
 body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8; 
 }
 
 .customPageHeaderFooter {
-    background-color: #00303f;
+    background-color: var(--headerFooterColor); /* var(--Css_Var_Name) is format for using it */
     font-family: Montserrat, sans-serif; 
     font-size: 14px;
 }
@@ -20,7 +27,7 @@ body {
 
 li>a:hover
 {
-    color:#dcae1d;
+    color: var(--jumbatronColor);
 }
 
 .formNav {
@@ -29,7 +36,7 @@ li>a:hover
 
 .jumbotron{
     /*background-color: #009e73;*/
-    background-color: #dcae1d;
+    background-color: var(--jumbatronColor);
     font-family: Montserrat, sans-serif;        
 } 
 
@@ -55,12 +62,12 @@ li>a:hover
 
 .dropdown-menu>.dropdown-item:hover
 {
-    background-color: #00303f !important ;
+    background-color: var(--headerFooterColor) !important ;
     color: white !important;
 }
 
 .moreDetails{
-    background-color: #00303f;
+    background-color: var(--headerFooterColor);
     color:white;
     font-size: 12px !important;
 }
@@ -70,12 +77,12 @@ li>a:hover
 }
 
 .cart:hover{
-   background-color: #00303f;
+   background-color: var(--headerFooterColor);
    color:white;
 }
 
 .cart{
-    background-color: rgb(235, 232, 232);
+    background-color: var(--elementsColor);
     font-size: 13px !important;
 }
 section>a{
@@ -83,6 +90,6 @@ section>a{
 }
 
 section>a:hover{
-    color: #dcae1d !important;  
+    color: var(--jumbatronColor) !important;  
     text-decoration: none;
 }
