@@ -4,7 +4,7 @@ body {
 }
 
 .customPageHeaderFooter {
-    background-color: #00303f;
+    background-color: #760f27;
     font-family: Montserrat, sans-serif; 
     font-size: 14px;
 }
@@ -17,7 +17,6 @@ body {
     color: white;
 }
 
-
 li>a:hover
 {
     color:#dcae1d;
@@ -29,7 +28,7 @@ li>a:hover
 
 .jumbotron{
     /*background-color: #009e73;*/
-    background-color: #dcae1d;
+    background-color: #fed672;
     font-family: Montserrat, sans-serif;        
 } 
 
@@ -40,11 +39,7 @@ li>a:hover
 .card>img
 {
     height:200px !important;  
-    width:100% !important ;      
-}
-
-.card>.card-header{
-    background-color: lightsteelblue;
+    
 }
 
 .dropdown-menu>.dropdown-item
@@ -59,11 +54,16 @@ li>a:hover
     color: white !important;
 }
 
+.star{
+    font-size: 13px;
+}
+
 .moreDetails{
     background-color: #00303f;
     color:white;
-    font-size: 12px !important;
+    font-size: 13px !important;
 }
+
 .moreDetails:hover{
     background-color: rgb(235, 232, 232);
     color:black;
@@ -76,8 +76,9 @@ li>a:hover
 
 .cart{
     background-color: rgb(235, 232, 232);
-    font-size: 13px !important;
+    font-size: 14px !important;
 }
+
 section>a{
     color: white !important;  
 }
