@@ -36,7 +36,7 @@ li>a:hover
 
 .jumbotron{
     /*background-color: #009e73;*/
-    background-color: var(--jumbatronColor) ;/* old color #fed672; */
+    background-color: var(--jumbatronColor) ;
     font-family: Montserrat, sans-serif;        
 } 
 
