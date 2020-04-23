@@ -1,10 +1,18 @@
+:root { /* root says this variable is globally valid for all*/
+    --headerFooterColor: #0E6969; /* "--var_name : value" is format for declaring the CSS variable*/
+    --jumbatronColor :  rgba(159, 143, 59, 0.42); /*rgba(184, 143, 64, 0.42);*/
+    --elementsColor: #b5e1e7be;
+    --buttonColor: rgba(144, 135, 85, 0.42);
+  }
+
+
 body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8; 
 }
 
 .customPageHeaderFooter {
-    background-color: #2c3e50;
+    background-color: var(--headerFooterColor); /* old color #760f27;*/
     font-family: Montserrat, sans-serif; 
     font-size: 14px;
 }
@@ -17,10 +25,9 @@ body {
     color: white;
 }
 
-
 li>a:hover
 {
-    color:#ccceb1;
+    color: var(--elementsColor);
 }
 
 .formNav {
@@ -29,23 +36,18 @@ li>a:hover
 
 .jumbotron{
     /*background-color: #009e73;*/
-    background-color: #1abc9c;
+    background-color: var(--jumbatronColor) ;/* old color #fed672; */
     font-family: Montserrat, sans-serif;        
 } 
-.searchBtn{
-    background-color: #787878;
-}
 
-.searchBtn:hover{
-    background-color: #2c3e50 !important;
-}
-.card-body>img
+#inputSearch::placeholder {
+    font-size:15px;
+  }
+
+.card>img
 {
-    height:300px !important;        
-}
-
-.card>.card-header{
-    background-color: lightsteelblue;
+    height:200px !important;  
+    
 }
 
 .dropdown-menu>.dropdown-item
@@ -56,8 +58,33 @@ li>a:hover
 
 .dropdown-menu>.dropdown-item:hover
 {
-    background-color: #2c3e50 !important ;
+    background-color: var(--headerFooterColor) !important ;
     color: white !important;
+}
+
+.star{
+    font-size: 13px;
+}
+
+.moreDetails{
+    background-color: var(--buttonColor);
+    color:black;
+    font-size: 13px !important;
+}
+
+.moreDetails:hover{
+    background-color: white;
+    color:black;
+}
+
+.cart:hover{
+   background-color: var(--buttonColor);
+   color:black;
+}
+
+.cart{
+    background-color: white;
+    font-size: 14px !important;
 }
 
 section>a{
@@ -65,10 +92,6 @@ section>a{
 }
 
 section>a:hover{
-    color: #ccceb1 !important;  
+    color: var(--elementsColor) !important;  
     text-decoration: none;
-}
-
-section>span:hover{
-    color: #ccceb1 !important;
 }
