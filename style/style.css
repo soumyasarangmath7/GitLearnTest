@@ -11,7 +11,7 @@ body { /* this css is applicable for whole body */
     line-height: 1.8; 
 }
 
-.customPageHeaderFooter {
+.customPageHeaderFooter { /* Contains properties common for header and footer */
     background-color: var(--headerFooterColor); /* old color #760f27;*/
     font-family: Montserrat, sans-serif; 
     font-size: 14px;
