@@ -1,0 +1,98 @@
+:root { /* root says this variable is globally valid for all*/
+    --headerFooterColor: #fbfafa; /* "--var_name : value" is format for declaring the CSS variable*/
+    --jumbatronColor :  white;/* rgba(159, 143, 59, 0.42); /*rgba(184, 143, 64, 0.42);*/
+    --elementsColor: #b5e1e7be;
+    --buttonColor: white; /* rgba(144, 135, 85, 0.42);*/
+  }
+
+
+body { /* this css is applicable for whole body */
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8; 
+}
+
+.customPageHeaderFooter { /* Contains properties common for header and footer */
+    background-color: var(--headerFooterColor); /* old color #760f27;*/
+    font-family: Montserrat, sans-serif; 
+    font-size: 14px;
+}
+
+.customPageHeaderFooter>#navbarSupportedContent { 
+    font-size: 17px !important;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: black;
+}
+
+li>a:hover
+{
+    color: var(--elementsColor);
+}
+
+.formNav {
+    color: black !important;
+}
+
+.jumbotron{
+    /*background-color: #009e73;*/
+    background-color: var(--jumbatronColor) ;
+    font-family: Montserrat, sans-serif;   
+    background-image: linear-gradient(-4deg, rgba(26, 217, 110, 0.97), rgba(52, 94, 51, 0.68)) ;    
+} 
+
+#inputSearch::placeholder {
+    font-size:15px;
+  }
+
+.card>img
+{
+    height:200px !important;  
+    
+}
+
+.dropdown-menu>.dropdown-item
+{
+    background-color: white !important;
+    color: black !important;
+}
+
+.dropdown-menu>.dropdown-item:hover
+{
+    background-color: var(--headerFooterColor) !important ;
+    color: white !important;
+}
+
+.star{
+    font-size: 13px;
+}
+
+.moreDetails{
+    background-color: var(--buttonColor);
+    color:black;
+    font-size: 13px !important;
+}
+
+.moreDetails:hover{
+    background-color: white;
+    color:black;
+}
+
+.cart:hover{
+   background-color: var(--buttonColor);
+   color:black;
+}
+
+.cart{
+    background-color: white;
+    font-size: 14px !important;
+}
+
+section>a, u, span, i{
+    color: black !important;  
+}
+
+section>a:hover{
+    color: var(--elementsColor) !important;  
+    text-decoration: none;
+}
