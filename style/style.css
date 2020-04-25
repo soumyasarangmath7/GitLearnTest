@@ -44,8 +44,7 @@ li>a:hover
 
 .card>img
 {
-    height:200px !important;  
-    
+    height:200px !important;    
 }
 
 .dropdown-menu>.dropdown-item
@@ -84,6 +83,14 @@ li>a:hover
     background-color: var(--buttonColor);
     color:black;
     font-size: 13px !important;
+}
+
+.loginForm{
+    background-color: #86B5A185;
+}
+
+.loginLink{
+    color:#105d69;
 }
 
 section>a, section>u, section>span, section>i{
