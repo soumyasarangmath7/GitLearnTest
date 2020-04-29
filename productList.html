@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>E-commerce</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg customPageHeaderFooter">
+        <a class="navbar-brand ml-5" href="#">E-Commerce</a>
+        <button class="navbar-toggler bg-light" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ml-3">
+                    <a class="nav-link" href="homePage.html">Home</a>
+                </li>
+                <li class="nav-item dropdown ml-3">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Categories
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Link1</a>
+                        <a class="dropdown-item" href="#">Link2</a>
+                        <a class="dropdown-item" href="#">Link3</a>
+                    </div>
+                </li>
+                <li class="nav-item ml-3">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item ml-3">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+            </ul>
+            <form class="form-inline">
+                <a class="nav-link formNav" href="loginPage.html">
+                    <i class="fas fa-user-circle"></i>
+                    Login
+                </a>
+                <a class="nav-link formNav" href="cartPage.html">
+                    <i class="fas fa-cart-arrow-down"></i>
+                    Cart
+                </a>
+            </form>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2">
+                <form class="form-row justify-content-center mt-3">
+                    <div class="col-md-12">
+                        <div class="input-group input-group-md shadow-sm ">
+                            <div class="input-group-prepend input-group-text">
+                                <a href="#" class="fas fa-filter text-dark"></a>
+                            </div>
+                            <input type="text" class="form-control" id="inputSearch" placeholder="Filters" required>
+                        </div>
+                    </div>
+                </form>
+                <div class="mt-3 ">
+                    <h3>Softwares</h3>
+                    <ul class="list-unstyled">
+                        <li>
+                            <i class="fas fa-caret-down mr-1"></i>Utility Softwares
+                            <ul class="list-unstyled ml-3">
+                                <li>
+                                    <i class="fas fa-caret-right mr-1"></i>MS Office-2013
+                                </li>
+                                <li>
+                                    <i class="fas fa-caret-right mr-1"></i>MS Office-2016
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <i class="fas fa-caret-down mr-1"></i>Antivirus Softwares
+                            <ul class="list-unstyled ml-3">
+                                <li>
+                                    <i class="fas fa-caret-right mr-1"></i>Avast Antivirus
+                                </li>
+                                <li>
+                                    <i class="fas fa-caret-right mr-1"></i>McAfee Antivirus
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <i class="fas fa-caret-down mr-1"></i>IDE Softwares
+                            <ul class="list-unstyled ml-3">
+                                <li>
+                                    <i class="fas fa-caret-right mr-1"></i>Visual Studio-2019
+                                </li>
+                                <li>
+                                    <i class="fas fa-caret-right mr-1"></i>Matlab
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-10">
+                <div class="row row-cols-1 row-cols-md-4 mt-3">
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-70 shadow ">
+                            <img src="images/ms-office.png" class="card-img-top" alt="MS Office 2016">
+                            <div class="card-body">
+                                <h5 class="card-title">MS Office</h5>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h4>$149.99</h4>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="#" class="btn text-warning star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <div class="col-6 ">
+                                        <div class="input-group">
+                                            <a href="#" class="btn moreDetails  rounded border border-dark">
+                                                <span class="input-group-addon">
+                                                    <i class="fas fa-list"></i>
+                                                </span>
+                                                More Details
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="cartPage.html" class="btn stretched-link cart border border-dark">
+                                            <i class="fas fa-cart-plus"></i>
+                                            Add to Cart
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-70 shadow w-78">
+                            <img src="images/avast.png" class="card-img-top img-responsive" alt="Avast Antivirus">
+                            <div class="card-body">
+                                <h5 class="card-title"> Avast Antivirus</h5>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h4>$199.99</h4>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="#" class="btn text-warning star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="input-group">
+                                            <a href="#" class="btn moreDetails rounded border border-dark">
+                                                <span class="input-group-addon">
+                                                    <i class="fas fa-list"></i>
+                                                </span>
+                                                More Details
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="cartPage.html" class="btn stretched-link cart border border-dark">
+                                            <i class="fas fa-cart-plus"></i>
+                                            Add to Cart
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 ">
+                        <div class="card h-70 shadow w-78">
+                            <img src="images/VisualStudio.jpg" class="card-img-top" alt="VisualStudio">
+                            <div class="card-body">
+                                <h5 class="card-title">Visual Studio 2019</h5>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h4>$249.99</h4>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="#" class="btn text-warning star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="input-group">
+                                            <a href="#" class="btn moreDetails rounded border border-dark">
+                                                <span class="input-group-addon">
+                                                    <i class="fas fa-list"></i>
+                                                </span>
+                                                More Details
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="cartPage.html" class="btn stretched-link cart border border-dark">
+                                            <i class="fas fa-cart-plus"></i>
+                                            Add to Cart
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-4 mt-3 mb-3">
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-70 shadow w-78">
+                            <img src="images/avast.png" class="card-img-top img-responsive" alt="Avast Antivirus">
+                            <div class="card-body">
+                                <h5 class="card-title"> Avast Antivirus</h5>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h4>$199.99</h4>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="#" class="btn text-warning star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="input-group">
+                                            <a href="#" class="btn moreDetails rounded border border-dark">
+                                                <span class="input-group-addon">
+                                                    <i class="fas fa-list"></i>
+                                                </span>
+                                                More Details
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="cartPage.html" class="btn stretched-link cart border border-dark">
+                                            <i class="fas fa-cart-plus"></i>
+                                            Add to Cart
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-70 shadow w-78">
+                            <img src="images/adobe-xd.png" class="card-img-top" alt="AdobeXd">
+                            <div class="card-body">
+                                <h5 class="card-title">Adobe XD</h5>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h4>$249.99</h4>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="#" class="btn text-warning star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="input-group">
+                                            <a href="#" class="btn moreDetails rounded border border-dark">
+                                                <span class="input-group-addon">
+                                                    <i class="fas fa-list"></i>
+                                                </span>
+                                                More Details
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="cartPage.html" class="btn stretched-link cart border border-dark">
+                                            <i class="fas fa-cart-plus"></i>
+                                            Add to Cart
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-70 shadow w-76">
+                            <img src="images/ms-office.png" class="card-img-top" alt="MS Office 2016">
+                            <div class="card-body">
+                                <h5 class="card-title">MS Office</h5>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h4>$149.99</h4>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="#" class="btn text-warning star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <div class="col-6 ">
+                                        <div class="input-group">
+                                            <a href="#" class="btn moreDetails  rounded border border-dark">
+                                                <span class="input-group-addon">
+                                                    <i class="fas fa-list"></i>
+                                                </span>
+                                                More Details
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="cartPage.html" class="btn stretched-link cart border border-dark">
+                                            <i class="fas fa-cart-plus"></i>
+                                            Add to Cart
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <div class="container-fluid pt-3 customPageHeaderFooter text-light">
+        <div class="row">
+            <div class="col-md-3 mb-3">
+                <section class="ml-5 mr-3">
+                    <h5 class="font-weight-bolder">
+                        <u>Contact Us</u>
+                    </h5>
+                    <i class="fas fa-copyright"></i>
+                    <span>2020 OnlineShopping Ltd.</span>
+                    <br>
+                    <i class="fas fa-map-marker"></i>
+                    <span>Bangalore,India.</span>
+                    <br>
+                    <i class="fas fa-phone"></i>
+                    <span>+91 xxxxxxxxxx</span>
+                    <br>
+                    <i class="fas fa-envelope"></i>
+                    <span>info@onlineshopping.com</span>
+                </section>
+            </div>
+            <div class="col-md-3 mb-3">
+                <section class="ml-5">
+                    <h5 class="font-weight-bolder">
+                        <u>Quick Links</u>
+                    </h5>
+                    <a href="#">About E-commerce</a>
+                    <br>
+                    <a href="#">Contact Us</a>
+                    <br>
+                    <a href="#">E-commerce Team</a>
+                    <br>
+                    <a href="#">Blog</a>
+                    <br>
+                    <a href="#">Privacy Policy</a>
+                </section>
+            </div>
+            <div class="col-md-3 mb-3">
+                <section class="ml-5 mr-0">
+                    <h5 class="font-weight-bolder">
+                        <u>Site Maps</u>
+                    </h5>
+                    <a href="#">PC Software</a>
+                    <br>
+                    <a href="#">Mobile software</a>
+                    <br>
+                    <a href="#">Antivirus</a>
+                    <br>
+                    <a href="#">MS Office</a>
+                </section>
+            </div>
+            <div class="col-md-3 mb-3">
+                <section class="ml-5 mr-0">
+                    <h5 class="font-weight-bolder">
+                        <u>Connect</u>
+                    </h5>
+                    <a href="#">
+                        <i class="fab fa-facebook-square mr-1"></i>
+                        Facebook
+                    </a>
+                    <br>
+                    <a href="#">
+                        <i class="fab fa-twitter mr-1"></i>
+                        Twitter
+                    </a>
+                    <br>
+                    <a href="#">
+                        <i class="fab fa-instagram mr-1"></i>
+                        Instagram
+                    </a>
+                    <br>
+                    <a href="#">
+                        <i class="fab fa-youtube-square mr-1"></i>
+                        YouTube
+                    </a>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
